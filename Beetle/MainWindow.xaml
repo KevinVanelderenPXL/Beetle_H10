@@ -1,0 +1,26 @@
+﻿<Window x:Class="Beetle.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Beetle"
+        mc:Ignorable="d"
+        Title="Beetle" Height="450" Width="800">
+    <Grid>
+        <Label Content="Speed cm/s" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <Label Content="Size in pixels" HorizontalAlignment="Left" Margin="10,48,0,0" VerticalAlignment="Top"/>
+        <Slider Name="speedSlider" HorizontalAlignment="Left" Margin="106,14,0,0" VerticalAlignment="Top" Width="200" Minimum="0.5" Maximum="10" SmallChange="0.5" IsSnapToTickEnabled="True" TickFrequency="0.5" ValueChanged="speedSlider_ValueChanged"/>
+        <Slider Name="sizeSlider" HorizontalAlignment="Left" Margin="106,52,0,0" VerticalAlignment="Top" Width="200" Minimum="10" Maximum="20" IsSnapToTickEnabled="True" TickFrequency="2" SmallChange="2" ValueChanged="sizeSlider_ValueChanged" Value="10"/>
+        <Label Name="speedLbl" Content="" HorizontalAlignment="Left" Margin="321,10,0,0" VerticalAlignment="Top"/>
+        <Label Name="sizeLbl" Content="" HorizontalAlignment="Left" Margin="321,48,0,0" VerticalAlignment="Top"/>
+        <Canvas Name="paperCanvas" Width="500" Height="300" Background="Gray" Margin="10,124,290,10" />
+        <Button Name="startBtn" Content="Start" Width="50" HorizontalAlignment="Left" Margin="658,8,0,0" VerticalAlignment="Top" Click="startBtn_Click"/>
+        <Button Name="resetBtn" Content="Reset" Width="50" HorizontalAlignment="Left" Margin="658,46,0,0" VerticalAlignment="Top" Click="resetBtn_Click"/>
+        <Button Name="upBtn" Content="Up" Width="50" HorizontalAlignment="Left" Margin="658,189,0,0" VerticalAlignment="Top" Click="upBtn_Click"/>
+        <Button Name="rightBtn" Content="Right" Width="50" HorizontalAlignment="Left" Margin="708,217,0,0" VerticalAlignment="Top" Click="rightBtn_Click"/>
+        <Button Name="downBtn" Content="Down" Width="50" HorizontalAlignment="Left" Margin="658,245,0,0" VerticalAlignment="Top" Click="downBtn_Click"/>
+        <Button Name="leftBtn" Content="Left" Width="50" HorizontalAlignment="Left" Margin="607,217,0,0" VerticalAlignment="Top" Click="leftBtn_Click"/>
+        <Label Name="outputLbl" Content="" HorizontalAlignment="Left" Margin="595,374,0,0" VerticalAlignment="Top"  Background="Azure" Height="45" Width="200"/>
+
+    </Grid>
+</Window>
