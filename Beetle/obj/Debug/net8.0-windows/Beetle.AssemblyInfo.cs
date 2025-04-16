@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Beetle")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+99f60d43545586df408428fd8d4d86420dcc8213")]
 [assembly: System.Reflection.AssemblyProductAttribute("Beetle")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Beetle")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

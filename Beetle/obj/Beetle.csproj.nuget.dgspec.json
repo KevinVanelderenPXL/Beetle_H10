@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\11302335\\source\\repos\\Beetle\\Beetle.csproj": {}
+    "C:\\Users\\11302335\\OneDrive - PXL\\Bureaublad\\BeetleRepo\\Beetle\\Beetle.csproj": {}
   },
   "projects": {
-    "C:\\Users\\11302335\\source\\repos\\Beetle\\Beetle.csproj": {
+    "C:\\Users\\11302335\\OneDrive - PXL\\Bureaublad\\BeetleRepo\\Beetle\\Beetle.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\11302335\\source\\repos\\Beetle\\Beetle.csproj",
+        "projectUniqueName": "C:\\Users\\11302335\\OneDrive - PXL\\Bureaublad\\BeetleRepo\\Beetle\\Beetle.csproj",
         "projectName": "Beetle",
-        "projectPath": "C:\\Users\\11302335\\source\\repos\\Beetle\\Beetle.csproj",
+        "projectPath": "C:\\Users\\11302335\\OneDrive - PXL\\Bureaublad\\BeetleRepo\\Beetle\\Beetle.csproj",
         "packagesPath": "C:\\Users\\11302335\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\11302335\\source\\repos\\Beetle\\obj\\",
+        "outputPath": "C:\\Users\\11302335\\OneDrive - PXL\\Bureaublad\\BeetleRepo\\Beetle\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
